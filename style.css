@@ -69,21 +69,12 @@ ul li a{
   background-color: rgba(255, 255, 255, 0.918);
   border-radius: 50px;
   cursor: pointer;
+  gap: 6px;
+  
 }
-.early-access-btn:hover {
-  background-color: #30B868; 
-}
-
-.circle {
-  width: 16px;
-  height: 16px;
-  background-color: #30B868;
-  border-radius: 50%; 
-  margin-right: 8px; }
-.early-access-btn:hover .circle {
-  background-color: white; 
-  transform: scale(1.2); 
-}
+.early-access-btn .circle {
+    position: relative;
+        top: 2px; }
 
 .text {
    color: #30B868;
